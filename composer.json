@@ -1,0 +1,24 @@
+{
+  "name": "team-updraft/lib-onboarding-wizard",
+  "type": "library",
+  "description": "onboarding wizard",
+  "license": "MIT",
+  "homepage": "https://teamupdraft.com/",
+  "authors": [
+    {
+      "name": "Team Updraft",
+      "email": "rlankhorst@updraftplus.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
